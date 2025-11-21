@@ -180,7 +180,7 @@ Transform:
   m_GameObject: {fileID: 281184866}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.58, y: 4.29, z: 0.057793614}
+  m_LocalPosition: {x: 6.17, y: 4.03, z: 0.057793614}
   m_LocalScale: {x: 3.9761, y: 3.9761, z: 3.9761}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -478,6 +478,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Collision Object 2
       objectReference: {fileID: 0}
+    - target: {fileID: 6641010801248209406, guid: 972b3f84e46f2fa488eebe47e97abd11, type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: -2060324418914113776, guid: ee08f5f372c5f7d44a2a10d169589b26, type: 2}
     - target: {fileID: 7737893387494556557, guid: 972b3f84e46f2fa488eebe47e97abd11, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.2649
@@ -683,11 +687,11 @@ AudioSource:
   m_GameObject: {fileID: 724315849}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 4658300566181516946, guid: ee08f5f372c5f7d44a2a10d169589b26, type: 2}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 9cb91f9afb79ef3469aa5cb96dbe2ab5, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.024
+  m_Volume: 0.1
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -6054,6 +6058,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Collision Object
       objectReference: {fileID: 0}
+    - target: {fileID: 6641010801248209406, guid: 972b3f84e46f2fa488eebe47e97abd11, type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: -2060324418914113776, guid: ee08f5f372c5f7d44a2a10d169589b26, type: 2}
     - target: {fileID: 7737893387494556557, guid: 972b3f84e46f2fa488eebe47e97abd11, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.4948997
